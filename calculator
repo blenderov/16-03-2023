@@ -1,0 +1,28 @@
+#by blender
+while True:
+   a = float(input("Введите число a"))
+
+   b = float(input("Введите число b"))
+
+   c = input("Выберите действие")
+
+   if c == "+":
+       print("Получислось",a + b)
+   elif c == "-":
+       print("Получислось",a - b)
+   elif c == "*":
+       print("Получислось",a * b)
+   elif c == "/":
+       print("Получислось",a / b)
+   else:
+       print("Error")
+
+   print("Если хотите выйти напишите \"Exit\" ")
+   enter = input("Нажмите Enter если хотите продолжить")
+
+
+   if enter == "exit":
+       break
+   elif enter == "Exit":
+       break
+
